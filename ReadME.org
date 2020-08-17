@@ -18,11 +18,11 @@
 
 ** About
 ASP is a Lisp inspired Array based Programming Language.
-ASP.js implements the ASP ( Array(like) Structured Programmming) Standards.
+ASP.js implements the ASP ( Array(like) Structured Programmming) Standards in Javascript.
 
-** TODO Roadmap [2/9] [22%]
+** Roadmap [2/9] [22%]
 
-ASP.js was just started. 
+ASP.js was just started, its thus not in a usable state although you can read and print data. 
 Below you can see the current status of the project.
 The number of planned features might change in the feature as we continue adding stuff
 
