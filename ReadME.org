@@ -15,6 +15,8 @@
     - [[#functions-01-0][Functions]]
   - [[#usage][Usage]]
   - [[#documentation][Documentation]]
+    - [[#importing][Importing]]
+    - [[#custom-setups][Custom Setups]]
 
 ** About
 ASP is a Lisp inspired Array based Programming Language.
@@ -93,3 +95,19 @@ The number of planned features might change in the feature as we continue adding
 For usage examples see demo.js
 
 ** Documentation
+
+*** Importing
+ASP.js is shipped as a module meaning you can just import it as a module
+
+*** Custom Setups
+For custom setups (e.g. where you don't have access to console.log to output data), you can set your own defaults.
+#BEGIN_SRC javascript
+ASP.overwrite({
+    // Overwrite input function(sync)
+    input: prompt
+    // Overwrite output function
+    output: console.log
+});
+Keep in mind that you might have to change the module export line to fit your module managment system
+
+
