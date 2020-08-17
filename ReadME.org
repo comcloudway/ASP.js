@@ -1,0 +1,3 @@
+* ASP.js
+ASP is a Lisp inspired Array based Programming Language.
+ASP.js implements the ASP ( Array(like) Structured Programmming) Standards.

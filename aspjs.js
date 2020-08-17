@@ -59,15 +59,6 @@ const ASP = {
     }
 };
 
-ASP.run(
-    ['print',
-         ['progn',
-          [[
-              '+',
-              1,
-              [
-                  '*',
-                  5,
-                  10
-              ]
-]]]]);
+module.exports= {
+    ASP
+};
