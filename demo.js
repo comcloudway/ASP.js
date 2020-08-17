@@ -10,6 +10,7 @@ ASP.overwrite({
 
 });
 
+/*
 ASP.run(
     ['print',
      ['progn',
@@ -22,3 +23,11 @@ ASP.run(
               10
           ]
       ]]]]);
+*/
+ASP.run([
+    'print',
+    [
+        'read',
+        'name'
+    ]]
+);

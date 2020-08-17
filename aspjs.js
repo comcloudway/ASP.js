@@ -59,7 +59,7 @@ const ASP = {
             if(!q) {
                 q="";
             }
-            ASP.defaults.input(q);
+            return ASP.defaults.input(q);
             break;
 
             /*
