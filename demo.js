@@ -1,5 +1,14 @@
+const prompt = require('prompt-sync')();
+
 //import { ASP } from './aspjs.js';
 const ASP = require('./aspjs.js').ASP;
+
+ASP.overwrite({
+
+    input: prompt,
+    output: console.log
+
+});
 
 ASP.run(
     ['print',
