@@ -1,3 +1,95 @@
 * ASP.js
+
+** Table of Contents :toc:
+- [[#aspjs][ASP.js]]
+  - [[#about][About]]
+  - [[#roadmap-29-22][Roadmap]]
+    - [[#console-output-24-50][Console Output]]
+    - [[#console-input-11-100][Console Input]]
+    - [[#math-619-31][MATH]]
+    - [[#extras-11-100][Extras]]
+    - [[#logical-operators-08-0][Logical Operators]]
+    - [[#equality-03-0][Equality]]
+    - [[#conditionals-05-0][Conditionals]]
+    - [[#variables-01-0][Variables]]
+    - [[#functions-01-0][Functions]]
+  - [[#usage][Usage]]
+  - [[#documentation][Documentation]]
+
+** About
 ASP is a Lisp inspired Array based Programming Language.
 ASP.js implements the ASP ( Array(like) Structured Programmming) Standards.
+
+** TODO Roadmap [2/9] [22%]
+
+ASP.js was just started. 
+Below you can see the current status of the project.
+The number of planned features might change in the feature as we continue adding stuff
+
+*** TODO Console Output [2/4] [50%]
+    - [X] print
+    - [ ] format
+    - [ ] princ
+    - [X] terpri
+
+*** DONE Console Input [1/1] [100%]
+    CLOSED: [2020-08-17 Mon 16:00]
+    - [X] read
+
+*** TODO MATH [6/19] [31%]
+    - [X] +
+    - [X] -
+    - [X] *
+    - [X] /
+    - [X] rem
+    - [X] mod
+    - [ ] expt
+    - [ ] sqrt
+    - [ ] exp
+    - [ ] log
+    - [ ] eq
+    - [ ] floor
+    - [ ] ceiling
+    - [ ] max
+    - [ ] min
+    - [ ] oddp
+    - [ ] evenp
+    - [ ] numberp
+    - [ ] null
+
+*** DONE Extras [1/1] [100%]
+    CLOSED: [2020-08-17 Mon 16:00]
+    - [X] progn
+
+*** TODO Logical Operators [0/8] [0%]
+    - [ ] =
+    - [ ] <=
+    - [ ] >=
+    - [ ] <
+    - [ ] >
+    - [ ] not
+    - [ ] and
+    - [ ] or
+
+*** TODO Equality [0/3] [0%]
+    - [ ] eq
+    - [ ] equal
+    - [ ] equalp
+
+*** TODO Conditionals [0/5] [0%]
+    - [ ] if
+    - [ ] cond
+    - [ ] case
+    - [ ] when
+    - [ ] unless
+
+*** TODO Variables [0/1] [0%]
+    - [ ] defvar
+
+*** TODO Functions [0/1] [0%]
+    - [ ] defunc
+
+** Usage
+For usage examples see demo.js
+
+** Documentation
